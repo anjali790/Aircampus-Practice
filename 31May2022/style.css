@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #928978;
+}
 
 
-/*header*/
+/*===================================================Header=================================================*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -12,8 +15,10 @@ nav {
 }
 
 header {
-    background-color: rgb(61, 94, 4);
+    background-color: #534a46;
     padding: 20px 20px;
+    position: sticky;
+    top: 0;
 }
 
 .left a {
@@ -36,16 +41,18 @@ header {
 
 #about,
 #services {
-    color: rgb(219, 72, 121);
+    color: #ef5363;
 }
 
 #home {
-    text-decoration: underline rgb(219, 72, 121);
+    text-decoration: underline #ef5363;
     text-underline-offset: 5px;
 }
 
 
-/*section1*/
+/*===============================================Main====================================================*/
+/*=============================================Section1==================================================*/
+
 .section1{
     height: 350px;
 }
@@ -63,9 +70,9 @@ header {
     float: left;
 }
 
-.box1 {
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+.box1,.box3{
+    border: #1e7d1b  solid 5px;
+    background-color: #6dd369;
     width: 80px;
     height: 80px;
     position: relative;
@@ -75,8 +82,8 @@ header {
 }
 
 .box2 {
-    border: red solid 5px;
-    background-color: orangered;
+    border: #a15a6d solid 5px;
+    background-color:#f493a0;
     width: 80px;
     height: 80px;
     position: relative;
@@ -84,22 +91,9 @@ header {
     margin: 10px 0;
     text-align: center;
 }
-
-.box3 {
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
-    width: 80px;
-    height: 80px;
-    position: relative;
-    left: 150px;
-    margin: 10px 0;
-    text-align: center;
-
-}
-
 .box4 {
-    border: red solid 5px;
-    background-color: orangered;
+    border: #a15a6d solid 5px;
+    background-color: #f493a0;
     width: 80px;
     height: 80px;
     text-align: center;
@@ -109,8 +103,8 @@ header {
 }
 
 .box5 {
-    border: red solid 5px;
-    background-color: orangered;
+    border: #a15a6d solid 5px;
+    background-color: #f493a0;
     width: 80px;
     height: 80px;
     position: relative;
@@ -119,8 +113,8 @@ header {
 }
 
 .box6 {
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+    border: #1e7d1b  solid 5px;
+    background-color: #80d37d;
     width: 80px;
     height: 80px;
     position: relative;
@@ -136,13 +130,15 @@ header {
     justify-content: space-around;
     margin: 30px 0;
 }
-
 .container2 .center .box2 {
     position: relative;
     left: 150px;
 }
 
-/*section2*/
+
+
+/*============================================Section2==============================================*/
+
 .section2{
     height: 700px;
 }
@@ -164,9 +160,9 @@ header {
     margin: 30px 0;
 }
 
-.box7 {
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+.box7,.box9 {
+    border: #6a858e solid 5px;
+    background-color: #bad1d1;
     width: 80px;
     height: 80px;
     position: relative;
@@ -175,18 +171,8 @@ header {
     text-align: center;
 }
 .box8 {
-    border: red solid 5px;
-    background-color: orangered;
-    width: 80px;
-    height: 80px;
-    position: relative;
-    left: 150px;
-    margin: 10px 0;
-    text-align: center;
-}
-.box9 {
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+    border: #e6a5a5 solid 5px;
+    background-color: #ede1bf;
     width: 80px;
     height: 80px;
     position: relative;
@@ -209,10 +195,8 @@ header {
 
 
 
+/*===============================================Section3============================================*/
 
-
-
-/*section3*/
 .head3{
     font-size: 25px;
     display: flex;
@@ -223,8 +207,8 @@ header {
     height: 550px;
 }
 .linebox{
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+    border: #845bb3 solid 5px;
+    background-color: #cf94e0;
     width: 80px;
     height: 80px;
     margin: 5px 0;
@@ -239,13 +223,14 @@ header {
 }
 
 
-/*section4*/
+
+/*=============================================Section4=============================================*/
 .section4{
     height: 450px;
 }
 .multiplebox{
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+    border: #47c9da solid 5px;
+    background-color: #9df9ef;
     width: 80px;
     height: 80px;
     text-align: center; 
@@ -266,7 +251,8 @@ header {
 }
 
 
-/*section5*/
+
+/*=============================================Section5==========================================*/
 .singleline-box{
     border: rgb(34, 53, 2) solid 5px;
     background-color: rgb(70, 97, 22);
@@ -291,13 +277,14 @@ header {
 }
 
 
-/*section6*/
+
+/*=============================================Section6==============================================*/
 .section6{
     height: 300px;
 }
 .section6-box1{
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+    border: #a42153 solid 5px;
+    background-color: #c5558e;
     width: 80px;
     height: 80px;
     text-align: center;
@@ -314,10 +301,17 @@ header {
     justify-content: center;
 }
 .section6-box2{
-    border: rgb(34, 53, 2) solid 5px;
-    background-color: rgb(70, 97, 22);
+    border: #a42153 solid 5px;
+    background-color: #c5558e;
     width: 80px;
     height: 80px;
     text-align: center;
     margin: 20px 0;
+}
+
+
+
+/*==================================================Footer=================================================*/
+footer{
+    background-color: ;
 }

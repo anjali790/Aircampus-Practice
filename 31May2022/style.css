@@ -17,8 +17,6 @@ nav {
 header {
     background-color: #534a46;
     padding: 20px 20px;
-    position: sticky;
-    top: 0;
 }
 
 .left a {
@@ -71,8 +69,8 @@ header {
 }
 
 .box1,.box3{
-    border: #1e7d1b  solid 5px;
-    background-color: #6dd369;
+    border: #3e4c51 solid 5px;
+    background-color: #6e8a94;
     width: 80px;
     height: 80px;
     position: relative;
@@ -113,8 +111,8 @@ header {
 }
 
 .box6 {
-    border: #1e7d1b  solid 5px;
-    background-color: #80d37d;
+    border: #3e4c51  solid 5px;
+    background-color: #6e8a94;
     width: 80px;
     height: 80px;
     position: relative;
@@ -178,6 +176,36 @@ header {
     position: relative;
     left: 150px;
     margin: 10px 0;
+    text-align: center;
+}
+.box10{
+    border: #e6a5a5 solid 5px;
+    background-color: #ede1bf;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.box11{
+    border: #e6a5a5 solid 5px;
+    background-color: #ede1bf;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+    margin: 10px 0;
+    left: 70px;
+}
+.box12{
+    border: #6a858e solid 5px;
+    background-color: #bad1d1;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
     text-align: center;
 }
 .container3 .bottombox .outerbox{
@@ -313,5 +341,15 @@ header {
 
 /*==================================================Footer=================================================*/
 footer{
-    background-color: ;
+    background-color: #534a46;
+    font-size: 30px;
+}
+i{
+    padding: 20px;
+    color: rgb(22, 21, 21);
+    
+}
+.footer1{
+    display: flex;
+    justify-content: center;
 }

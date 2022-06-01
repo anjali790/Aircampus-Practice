@@ -144,7 +144,7 @@ header {
 
 /*section2*/
 .section2{
-    height: 600px;
+    height: 700px;
 }
 .head2{
     font-size: 25px;
@@ -158,5 +158,166 @@ header {
     width: 400px;
     float: left;
 }
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.box7 {
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 150px;
+    margin: 10px 0;
+    text-align: center;
+}
+.box8 {
+    border: red solid 5px;
+    background-color: orangered;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 150px;
+    margin: 10px 0;
+    text-align: center;
+}
+.box9 {
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 150px;
+    margin: 10px 0;
+    text-align: center;
+}
+.container3 .bottombox .outerbox{
+    border: 2px solid rgb(219, 72, 121)
+}
+.bottombox {
+    border: 2px solid rgb(219, 72, 121);
+    height: 280pxpx;
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 560px;
+}
 
 
+
+
+
+
+
+/*section3*/
+.head3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.section3{
+    height: 550px;
+}
+.linebox{
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    margin: 5px 0;
+    text-align: center;  
+}
+.straightbox{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*section4*/
+.section4{
+    height: 450px;
+}
+.multiplebox{
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    text-align: center; 
+    margin-top: 60px;
+    margin: 5px 5px;
+}
+.section4-box1,.section4-box2, .section4-box3{
+    
+    display: flex;
+    justify-content: center;
+}
+.section4-box1{
+    margin-top: 60px;
+}
+.bottom-center-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*section5*/
+.singleline-box{
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    text-align: center; 
+    margin: 5px 5px;
+}
+.middle-box{
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 240px;
+    height: 80px;
+    text-align: center; 
+    margin: 5px 5px;
+}
+.section5-box{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+
+}
+
+
+/*section6*/
+.section6{
+    height: 300px;
+}
+.section6-box1{
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 5px 25px;
+    
+}
+.section6-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bottom6-box{
+    display: flex;
+    justify-content: center;
+}
+.section6-box2{
+    border: rgb(34, 53, 2) solid 5px;
+    background-color: rgb(70, 97, 22);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 20px 0;
+}

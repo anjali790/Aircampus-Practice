@@ -13,7 +13,7 @@ animation-duration: 5s;
 }
 
 
-@keyframes practice2{
+/* @keyframes practice2{
     0% {background-color: violet;
        left: 0px; top: 0px;}
        25%{background-color: orangered;
@@ -32,4 +32,4 @@ animation-duration: 5s;
     animation-duration: 5s;
     animation-iteration-count: 2;
     animation-direction: alternate-reverse;
-}
+} */

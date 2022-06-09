@@ -86,11 +86,11 @@ if(c>=18){
 */
 let m=-5;
 if(m>0){
-    console.log("n=1")
+    console.log("The value of n=1")
 }else if(m==0){
-    console.log("n=0")
+    console.log("The value of n=0")
 }else{
-    console.log("n=-1")
+    console.log("The value of n=-1")
 }
 
 

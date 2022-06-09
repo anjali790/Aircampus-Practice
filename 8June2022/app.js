@@ -161,22 +161,20 @@ if(X>0 && Y>0){
 // The candidate is not eligible for admission.
 
 /* Your answer here
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
+let Phy=54
+Chem=51
+Maths=72
+Maths+Phy+Chem==188
+Maths+Phy==137
+if((Maths>=65 && Phy>=55 && Chem>=50) &&(Maths+Phy+Chem>=190) && (Maths+Phy>=140)){
+    console.log("The candidate is eligible for addmission");
+}else{
+    console.log("The candidate is not eligible for addmission")
+}
+
+
+
 
 
 // 11. Write a program to calculate the root of a Quadratic Equation.
@@ -190,19 +188,15 @@ let A=1;
 b=5;
 c=7;
 let discriminant= b*b -4 *A*c;
+root1=(-b + Math.sqrt(discriminant))/(2*A);
+root2=(-b - Math.sqrt(discriminant))/(2*A);
 if(discriminant >0){
-    root1=(-b + Math.sqrt(discriminant))/(2*A);
-    root2=(-b - Math.sqrt(discriminant))/(2*A);
-    console.log("roots of quadratic equation are $(root1) and");
+    console.log("Root are real");
+}else if(discriminant <0){
+    console.log("Root are imaginary")
+}else{
+    console.log("No solution")
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -267,15 +261,7 @@ if(temp<0){
 
 
 
-
-
-
-
-
-
-
-
-// 14. Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
+ // 14. Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
 // Test Data :
 // 50 50 60
 // Expected Output :
@@ -294,6 +280,8 @@ if(x==y==z){
 }
 
 
+
+
 // 15. Write a program to check whether a triangle can be formed by the given value for the angles.
 // Test Data :
 // 40 55 65
@@ -309,6 +297,8 @@ if((p+q+r==180) && p!=0 && q!=0 && r!=0){
 }else{
     console.log("The triangle is not valid");
 }
+
+
 
 
 // 16. Write a program to check whether a character is an alphabet, digit or special character.
@@ -350,16 +340,6 @@ if(alphabet=='a' || alphabet=='e' || alphabet=='i' || alphabet=='o' || alphabet=
 
 
 
-
-
-
-
-
-
-
-
-
-
 // 18. Write a program to calculate profit and loss on a transaction.
 // Test Data :
 // Input buy price: 500
@@ -377,12 +357,6 @@ if(sp>cp){
 }else{
     console.log("loss")
 }
-
-
-
-
-
-
 
 
 
@@ -410,17 +384,16 @@ if(sp>cp){
 // Surchage Amount : 240.00
 // Net Amount Paid By the Customer : 1840.00
 /* Your answer here
-
-
-
-
-
-
-
-
-
-
 */
+
+
+
+
+
+
+
+
+
 
 // 20. Write a program to accept a grade and declare the equivalent description :
 
@@ -456,19 +429,6 @@ switch(grade){
     default:
         console.log("Invalid grade");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -511,19 +471,6 @@ switch(num){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 22. Write a program to read any digit, display in the word.
 // Test Data :
 // 4
@@ -549,19 +496,6 @@ switch(digit){
         console.log("Invalid digit")
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -616,9 +550,6 @@ switch(number){
     default:
         console.log("Invalid month");  
 }
-
-
-
 
 
 

@@ -62,13 +62,6 @@ if(year%4==0){
 
 
 
-
-
-
-
-
-
-
 // 5. Write a  program to read the age of a candidate and determine whether it is eligible for casting his/her own vote.
 // Test Data : 21
 // Expected Output :
@@ -81,6 +74,8 @@ if(c>=18){
 }else{
     console.log("You are not eligible for casting your vote")
 }
+
+
 
 
 // 6. Write a program to read the value of an integer m and display the value of n is 1 when m is larger than 0, 0 when m is 0 and -1 when m is less than 0.
@@ -98,6 +93,10 @@ if(m>0){
     console.log("n=-1")
 }
 
+
+
+
+
 // 7. Write a  program to accept the height of a person in centimeter and categorize the person according to their height.
 // Test Data : 135
 // Expected Output :
@@ -112,6 +111,10 @@ if(height<=135){
 }else{
     console.log("Tall")
 }
+
+
+
+
 
 
 // 8. Write a program to find the largest of three numbers.
@@ -132,6 +135,10 @@ if((num1>num2)&&(num1>num3)){
     console.log("3rd number is greatest among three")
 }
 
+
+
+
+
 // 9. Write a  program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies.
 // Test Data : 7 9
 // Expected Output :
@@ -149,6 +156,11 @@ if(X>0 && Y>0){
 }else if(X>0 && Y<0){
     console.log("Fourth quadrant")
 }
+
+
+
+
+
 // 10. Write a  program to find the eligibility of admission for a professional course based on the following criteria:
 // Eligibility Criteria : Marks in Maths >=65 and Marks in Phy >=55 and Marks in Chem>=50 and Total in all three subject >=190 or Total in Maths and Physics >=140
 
@@ -216,17 +228,10 @@ if(discriminant >0){
 // Percentage = 80.00
 // Division = First
 /* Your answer here
-
-
-
-
-
-
-
-
-
-
 */
+
+
+
 
 
 // 13. Write a program to read temperature in centigrade and display a suitable message according to temperature state below :
@@ -308,17 +313,18 @@ if((p+q+r==180) && p!=0 && q!=0 && r!=0){
 // This is a special character.
 // Hint: ASCII character
 /* Your answer here
-
-
-
-
-
-
-
-
-
-
 */
+let ch='@'
+if(ch>='0' && ch<='9'){
+    console.log("This is a digit")
+}else if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z')){
+    console.log("This is a alphabet")
+}else{
+    console.log("This is a special character")
+}
+
+
+
 
 
 // 17. Write a  program to check whether an alphabet is a vowel or consonant.

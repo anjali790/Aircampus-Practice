@@ -52,6 +52,21 @@ if(a>0){
 // 2016 is a leap year.
 /* Your answer here
 */
+let year=2016
+if(year%4==0){
+    console.log("2016 is a leap year");
+}else{
+    console.log("2016 Not a leap year")
+}
+
+
+
+
+
+
+
+
+
 
 
 // 5. Write a  program to read the age of a candidate and determine whether it is eligible for casting his/her own vote.
@@ -323,7 +338,12 @@ if((p+q+r==180) && p!=0 && q!=0 && r!=0){
 // The alphabet is a consonant.
 /* Your answer here
 */
-
+let alphabet='k'
+if(alphabet=='a' || alphabet=='e' || alphabet=='i' || alphabet=='o' || alphabet=='u'){
+    console.log("The alphabet is a vowel");
+}else{
+    console.log("The alphabet is a consonant")
+}
 
 
 

@@ -18,18 +18,6 @@ if (number1==number2){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // 2. Write a  program to check whether a given number is even or odd.
 // Test Data : 15
 // Expected Output :
@@ -271,7 +259,7 @@ if(x==y==z){
     console.log("Equilateral")
 }else if(x==y || y==z || z==x){
     console.log("Isoceles")
-}else if(x!=y && y!=z && z!=X){
+}else{
     console.log("Scalene")
 }
 
@@ -320,7 +308,6 @@ if((p+q+r==180) && p!=0 && q!=0 && r!=0){
 // The alphabet is a consonant.
 /* Your answer here
 */
-
 
 
 
@@ -414,24 +401,26 @@ if(sp>cp){
 // You have chosen : Average
 /* Your answer here
 */
-// let grade=A
-// switch(grade){
-//     case E:
-//         console.log("Excellent");
-//         break;
-//     case V:
-//         console.log("Very Good");
-//         break;
-//     case G:
-//         console.log("Good");
-//         break;
-//     case A:
-//         console.log("Average");
-//         break;
-//     case F:
-//         console.log("Fail");
-//         break;
-// }
+let grade= "A";
+switch(grade){
+    case "E":
+        console.log("You have chosen Excellent");
+        break;
+    case "V":
+        console.log("You have chosen Very Good");
+        break;
+    case "G":
+        console.log("You have chosen Good");
+        break;
+    case "A":
+        console.log("You have chosen Average");
+        break;
+    case "F":
+        console.log("You have chosen Fail");
+        break;
+    default:
+        console.log("Invalid grade");
+}
 
 
 
@@ -473,6 +462,15 @@ switch(num){
     case 4:
         console.log("Thursday");
         break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Invalid day");
+    
 }
 
 
@@ -512,6 +510,8 @@ switch(digit){
     case 4:
         console.log("Four");
         break;
+    default:
+        console.log("Invalid digit")
 
 }
 
@@ -577,7 +577,9 @@ switch(number){
         break;    
     case 12:
         console.log("December");
-        break;       
+        break;  
+    default:
+        console.log("Invalid month");  
 }
 
 
@@ -591,3 +593,42 @@ switch(number){
 // 7
 // Expected Output :
 // Month have 31 days
+let month=7
+switch(month){
+    case 1:
+        console.log("Month have 31 days");
+        break;
+    case 2:
+        console.log("Month have 28 days");
+        break;
+    case 3:
+        console.log("Month have 31 days");
+        break;
+    case 4:
+        console.log("Month have 30 days");
+        break;
+    case 5:
+        console.log("Month have 31 days");
+        break;
+    case 6:
+        console.log("Month have 30 days");
+        break;
+    case 7:
+        console.log("Month have 31 days");
+        break;
+    case 8:
+        console.log("Month have 31 days");
+        break;
+    case 9:
+        console.log("Month have 30 days");
+        break; 
+    case 10:
+        console.log("Month have 31 days");
+        break;    
+    case 11:
+        console.log("Month have 30 days");
+        break;    
+    case 12:
+        console.log("Month have 31 days");
+        break;       
+}

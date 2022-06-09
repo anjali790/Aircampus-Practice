@@ -315,7 +315,7 @@ if((p+q+r==180) && p!=0 && q!=0 && r!=0){
 /* Your answer here
 */
 let ch='@'
-if(ch>='0' && ch<='9'){
+if(ch>='0' && ch<='9'|| ch<0){
     console.log("This is a digit")
 }else if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z')){
     console.log("This is a alphabet")

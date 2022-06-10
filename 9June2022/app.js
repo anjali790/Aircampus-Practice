@@ -125,8 +125,8 @@ if(height<=135){
 /* Your answer here
 */
 var number1=12;
-var number2=25;
-var number3=52;
+ number2=25;
+ number3=52;
 if((number1 > number2) && (number1 > number3 )){
     console.log("1st number is greatest among three")
 }else if((number2 > number3) && (number2 > number1)){
@@ -335,7 +335,7 @@ if(character>='0' && character<='9'|| character<0){
 /* Your answer here
 */
 let alphabet='k'
-if(alphabet=='a' || alphabet=='e' || alphabet=='i' || alphabet=='o' || alphabet=='u'){
+if(alphabet=='a' || alphabet=='e' || alphabet=='i' || alphabet=='o' || alphabet=='u' || alphabet=='A' ||alphabet=='E' || alphabet=='I' || alphabet=='O' || alphabet=='U'){
     console.log("The alphabet is a vowel");
 }else{
     console.log("The alphabet is a consonant")
@@ -359,9 +359,11 @@ sp=700;
 profit=sp-cp
 loss=cp-sp
 if(sp>cp){
-    console.log("profit")
+    profit=sp-cp
+    console.log("profit", profit)
 }else{
-    console.log("loss")
+    loss=cp-sp
+    console.log("loss", loss)
 }
 
 

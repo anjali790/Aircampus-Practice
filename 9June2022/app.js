@@ -7,7 +7,7 @@
 // Number1 and Number2 are equal
 
 /* Your answer here*/
-let number1, number2;
+var number1, number2;
 number1=15;
 number2=15;
 if (number1==number2){
@@ -24,8 +24,8 @@ if (number1==number2){
 // 15 is an odd integer
 /* Your answer here
 */
-let a=15;
-if(a%2==0){
+var number=15;
+if(number%2==0){
     console.log("Even")
 }else{
     console.log("15 is an odd integer")
@@ -38,8 +38,8 @@ if(a%2==0){
 // 15 is a positive number
 /* Your answer here
 */
-let b=15;
-if(a>0){
+var number=15;
+if(number>0){
     console.log("15 is a positive number")
 }else{
     console.log("number is negative")
@@ -68,8 +68,8 @@ if(year%4==0){
 // Congratulation! You are eligible for casting your vote.
 /* Your answer here
 */
-let c=21;
-if(c>=18){
+let age=21;
+if(age>=18){
     console.log("Congratulations! You are eligible for casting your vote")
 }else{
     console.log("You are not eligible for casting your vote")
@@ -124,12 +124,12 @@ if(height<=135){
 // The 3rd Number is the greatest among three
 /* Your answer here
 */
-let num1=12;
-num2=25;
-num3=52;
-if((num1>num2)&&(num1>num3)){
+var number1=12;
+var number2=25;
+var number3=52;
+if((number1 > number2) && (number1 > number3 )){
     console.log("1st number is greatest among three")
-}else if((num2>num3)&&(num2>num1)){
+}else if((number2 > number3) && (number2 > number1)){
     console.log("2st number is greatest among three")
 }else{
     console.log("3rd number is greatest among three")
@@ -145,15 +145,15 @@ if((num1>num2)&&(num1>num3)){
 // The coordinate point (7,9) lies in the First quadrant.
 /* Your answer here
 */
-let X,Y;
-X=7, Y=9
-if(X>0 && Y>0){
+var x,y;
+ x=7, y=9
+if(x>0 && y>0){
     console.log("First quadrant")
-}else if(X<0 && Y>0){
+}else if(x<0 && y>0){
     console.log("Second quadrant")
-}else if(X<0 && Y<0){
+}else if(x<0 && y<0){
     console.log("Third quadrant")
-}else if(X>0 && Y<0){
+}else if(x>0 && y<0){
     console.log("Fourth quadrant")
 }
 
@@ -196,12 +196,12 @@ if((Maths>=65 && Phy>=55 && Chem>=50) &&(Maths+Phy+Chem>=190) && (Maths+Phy>=140
 // No solution.
 /* Your answer here
 */
-let A=1;
+var a=1;
 b=5;
 c=7;
-let discriminant= b*b -4 *A*c;
-root1=(-b + Math.sqrt(discriminant))/(2*A);
-root2=(-b - Math.sqrt(discriminant))/(2*A);
+let discriminant= b*b -4 *a*c;
+root1=(-b + Math.sqrt(discriminant))/(2*a);
+root2=(-b - Math.sqrt(discriminant))/(2*a);
 if(discriminant >0){
     console.log("Root are real");
 }else if(discriminant <0){
@@ -273,7 +273,7 @@ if(temp<0){
 // This is an isosceles triangle.
 /* Your answer here
 */
-let x=50
+var x=50
 y=50
 z=60
 if(x==y==z){
@@ -294,10 +294,10 @@ if(x==y==z){
 // The triangle is not valid.
 /* Your answer here
 */
-let p=40;
-q=55;
-r=65;
-if((p+q+r==180) && p!=0 && q!=0 && r!=0){
+let angle1=40;
+angle2=55;
+angle3=65;
+if((angle1+angle2+angle3==180) && angle1!=0 && angle2!=0 && angle3!=0){
     console.log("The triangle is valid");
 }else{
     console.log("The triangle is not valid");
@@ -314,10 +314,10 @@ if((p+q+r==180) && p!=0 && q!=0 && r!=0){
 // Hint: ASCII character
 /* Your answer here
 */
-let ch='@'
-if(ch>='0' && ch<='9'|| ch<0){
+let character='@'
+if(character>='0' && character<='9'|| character<0){
     console.log("This is a digit")
-}else if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z')){
+}else if((character>='A' && character<='Z') || (character>='a' && character<='z')){
     console.log("This is a alphabet")
 }else{
     console.log("This is a special character")
@@ -446,8 +446,8 @@ switch(grade){
 // Thursday
 /* Your answer here
 */
-let num=4
-switch(num){
+var number=4
+switch(number){
     case 0:
         console.log("Sunday");
         break;
@@ -484,7 +484,7 @@ switch(num){
 // Four
 /* Your answer here
 */
-let digit=4
+var digit=4
 switch(digit){
     case 1:
         console.log("One");
@@ -515,7 +515,7 @@ switch(digit){
 // April
 /* Your answer here
 */
-let number=4
+var number=4
 switch(number){
     case 1:
         console.log("January");

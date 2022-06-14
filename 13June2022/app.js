@@ -2,12 +2,12 @@
 let num1=5;
 let num2=6;
 add= num1+num2;
-console.log(c);
+console.log("sum of two number is",add);
 
 //Squareroot of number
-let s=64;
-r=Math.sqrt(s);
-console.log(r);
+let num=64;
+root=Math.sqrt(num);
+console.log("squareroot of a number is",root);
 
 // numbers from 1-10
 for(i=1; i<=10;i++){
@@ -31,7 +31,7 @@ for(i=1;i<=20;i++){
 console.log("sum of Even numbers from 1-20 is :" + sum);
 
 //Print numbers from 20-1
-for(i=20; i>1; i--){
+for(i=20; i>=1; i--){
     console.log(i);
 }
 
@@ -42,10 +42,10 @@ for(i=1; i<=20;i++){
 }
 console.log("sum of natural numbers from 1-20 is : " + sum1);
 
-// print the table of 5
-let t=5;
+// print the table of 6
+let a=6;
 for(i=1;i<=10;i++){
-    console.log(t*i);
+    console.log(a*i);
 }
 
 //print odd numbers from 1-20
@@ -55,13 +55,13 @@ for(i=1; i<=20;i++){
     }
 }
 
-///return the factorial of 7
-let f=7;
-let fact=1;
-for(i=f; i>=1;i--){
-    fact=fact*i;
+///return the factorial of 5
+
+let factorial=1;
+for(i=5; i>=1;i--){
+    factorial=factorial*i;
 }
-console.log("factorial of 7 is :"+ fact);
+console.log("factorial of 5 is :"+ factorial);
 
 /// print "YES" if the integer is prime and "NO" if it is not.
 let x= 3;

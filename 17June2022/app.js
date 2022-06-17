@@ -25,3 +25,19 @@ if(reveseNumber==num1){
 }else{
     console.log("Number is not Palindrome number");
 }
+
+
+
+
+let number=5;
+let check=true;
+for(i=2; i<number; i++){
+    if(number%i==0){
+        check=false;
+    }
+}if(check==true){
+    console.log("YES")
+}else{
+    console.log("NO")
+}
+

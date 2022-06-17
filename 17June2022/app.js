@@ -29,6 +29,7 @@ if(reveseNumber==num1){
 
 
 
+//Prime number
 let number=5;
 let check=true;
 for(i=2; i<number; i++){

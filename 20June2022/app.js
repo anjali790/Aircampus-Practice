@@ -93,3 +93,20 @@ function temperature(temp){
 }
 console.log(temperature(122))
 exports.temperature = temperature
+
+
+
+
+
+
+
+//Write a code to take time in seconds and convert it into hour, mins and seonds
+function time(seconds){
+    let hours=Math.floor(seconds/3600);
+    let minutes=Math.floor(seconds/60)-hours*60;
+    let second=seconds%60;
+     
+      return ('In 50000 seconds '+hours+' hours , '+minutes+' minutes and '+second+' seconds are possible');
+    }
+    console.log(time(5000))
+    exports.time = time

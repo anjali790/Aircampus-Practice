@@ -70,7 +70,7 @@ function eligible(
         product= product *i;
       }
     }
-    if(product==1){
+    if(product<1680){
       return 0;
     }else{
       return product;
@@ -78,3 +78,18 @@ function eligible(
   }
   console.log(product(30,35))
   exports.product = product  
+
+
+
+
+
+
+
+//Write a code to take temperature in Fahrenheit and convert it to Celsius.
+//C=(F-32)*5/9
+function temperature(temp){
+    let C=(temp-32)*5/9
+    return C;
+}
+console.log(temperature(122))
+exports.temperature = temperature

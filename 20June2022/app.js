@@ -44,14 +44,37 @@ function eligible(
     election_year){
     if(2022-birth_year>20 && birth_month>6 && birth_day>11){
       return "I can vote";
-    }else if(2022-birth_year>50 && birth_month>8 && birth_day>12 &&
-  2022-birth_year<70 && birth_month<5 && birth_day<11){
+    }else if(2022-birth_year>50 && birth_month>8 && birth_day>12 && 2022-birth_year<70 && birth_month<5 && birth_day<11){
       return "I cannot walk so cannot vote please make an app to vote";
-  }else if(election_day==birth_day){
+    }else if(election_day==birth_day){
       return "I received an iphone";
-  }else if(2022-birth_year>70 && birth_month>5 && birth_day>11){
+    }else if(2022-birth_year>70 && birth_month>5 && birth_day>11){
       return "I will watch naruto rather than voting"
-  }
+    }
   }
   console.log(eligible(10, 5, 1970, 12, 6, 2022))
   exports.eligible = eligible
+
+
+
+
+
+
+  //Take two numbers and find product of all numbers between them that satisfy following condition (inclusive range):
+  //-> Numbers should be even
+  //-> Second last digit of number is 4
+  function product(a,b){
+    let product=1;
+    for(let i=a; i<=b; i++){
+     if(i%2==0 && Math.floor(i/10)%10==4){
+        product= product *i;
+      }
+    }
+    if(product==1){
+      return 0;
+    }else{
+      return product;
+    }
+  }
+  console.log(product(30,35))
+  exports.product = product  

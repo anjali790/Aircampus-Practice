@@ -57,3 +57,24 @@ function amPm(hr,min){
   }
   console.log(amPm(0,25))
   exports.amPm = amPm
+
+
+
+
+
+
+
+//Normal function
+//Find the sum of cube of digits of a number
+function sumOfCubeOfDigits(num){
+  let sum=0;
+  while(num!=0){
+    let rem=num%10;
+    sum=sum+rem**3;
+    num=Math.floor(num/10);
+  }
+  return sum;
+}
+console.log(sumOfCubeOfDigits(49))
+console.log(sumOfCubeOfDigits(55))
+console.log(sumOfCubeOfDigits(103))

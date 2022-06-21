@@ -56,7 +56,7 @@ function amPm(hr,min){
     }
   }
   console.log(amPm(0,25))
-  exports.amPm = amPm
+
 
 
 

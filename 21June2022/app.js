@@ -28,3 +28,10 @@ function biggestNumber(a,b,c,d){
     }
 }
 console.log(biggestNumber(46,89,98,103))
+
+
+
+
+
+
+//Take a time in 24 hour fomrat and onvert it to 12 hour format. Also if hour or minute is of single digit add "0" before it

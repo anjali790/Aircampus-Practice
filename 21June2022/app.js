@@ -78,3 +78,23 @@ function sumOfCubeOfDigits(num){
 console.log(sumOfCubeOfDigits(49))
 console.log(sumOfCubeOfDigits(55))
 console.log(sumOfCubeOfDigits(103))
+
+
+
+
+
+
+//---2---Arrow Function
+let sumOfSquareOfDigits = (num) =>{
+  let sum=0;
+  while(num!=0){
+    let rem=num%10;
+    sum=sum+rem**2;
+    num=Math.floor(num/10);
+  }
+  return sum;
+}
+console.log(sumOfSquareOfDigits(49))
+console.log(sumOfSquareOfDigits(55))
+console.log(sumOfSquareOfDigits(103))
+

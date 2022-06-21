@@ -64,7 +64,7 @@ function amPm(hr,min){
 
 
 
-//Normal function
+//---1---Function declaration and defination
 //Find the sum of cube of digits of a number
 function sumOfCubeOfDigits(num){
   let sum=0;

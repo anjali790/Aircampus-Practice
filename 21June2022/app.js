@@ -1,6 +1,5 @@
-//Find the biggest number among four number using switch case
-
-
+//Take 4 numbers and find and return biggest of them. If all three numbers are same than print "None of them is biggest"
+//if there are two numbers same as biggest than also print "None of them is biggest"
 function biggestNumber(a,b,c,d){
     switch(a>b && a>c && a>d){
         case true:

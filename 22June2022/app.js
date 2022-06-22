@@ -11,13 +11,15 @@ console.log(ans);
 
 //Find the cube of gigits of a number
 
-let res=(function sumOfCubeOfDigits(p,q){
-    sum=0;
+let res=(function sumOfCubeOfDigits(n){
+    let sum=0;
+    while(n!=0){
     let rem=n%10;
-    sum+=rem;
+    sum=sum+rem**3;
     n=Math.floor(n/10);
-    return n;
-})()
+    }
+    return sum;
+})(33)
 console.log(res);
 
 

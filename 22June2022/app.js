@@ -1,8 +1,17 @@
 //IIFE(Immediately invoked function expression) function
+//Sum of two number
 let ans=(function sum(x,y){
     return (x+y);
 })(35,87);
 console.log(ans);
+
+
+
+
+
+//Find the cube of gigits of a number
+
+
 
 
 

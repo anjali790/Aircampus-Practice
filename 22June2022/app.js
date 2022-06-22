@@ -27,14 +27,14 @@ console.log(res);
 
 
 // // //Find the square of n number
-let square=(function squareOfNumber(n){
-    let square=0;
-    while(n){
-        square=square+n**2;
-    }
-    return square;
-})(12);
-console.log(square);
+// let square=(function squareOfNumber(n){
+//     let square=0;
+//     while(n){
+//         square=square+n**2;
+//     }
+//     return square;
+// })(12);
+// console.log(square);
 
 
 

@@ -85,6 +85,7 @@ console.log(sumOfCubeOfDigits(103))
 
 
 //---2---Arrow Function
+//Find the sum of square of digits of a number
 let sumOfSquareOfDigits = (num) =>{
   let sum=0;
   while(num!=0){

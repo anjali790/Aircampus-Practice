@@ -9,8 +9,8 @@ console.log(ans);
 
 
 
-//Find the cube of digits of a number
 
+//Find the cube of digits of a number
 let res=(function sumOfCubeOfDigits(n){
     let sum=0;
     while(n!=0){
@@ -21,6 +21,7 @@ let res=(function sumOfCubeOfDigits(n){
     return sum;
 })(33)
 console.log(res);
+
 
 
 
@@ -39,16 +40,21 @@ console.log(res);
 
 
 
+
+
 //Find the square of n number
 let square=(function squareOfNumber(n){
     let square=n**2;
     return square;
-})(12);
-console.log(square)
+})(111);
+console.log(square);
 
 
 
 
+
+
+//---------------------------------------------------------------------------------------------------------------//
 
 //Find middle digit of n number
 function middleDigit(n){

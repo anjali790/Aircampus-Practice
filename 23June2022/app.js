@@ -23,3 +23,19 @@ function z(evenNumber){
     return evenNumber(786);
 }
 console.log(z(evenNumber));
+
+
+
+
+//Find factorial of number
+function factorial(num){
+    let facto=1;
+    for(i=num; i>=1; i--){
+    facto=facto*i;
+    }
+    return facto;
+}
+function x(factorial){
+    return factorial(6);
+}
+console.log(x(factorial));

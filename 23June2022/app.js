@@ -63,3 +63,7 @@ console.log(x(factorial));
 
 
 //-----------------------------------------Set Time Out----------------------------------------------//
+function n(){
+    console.log("Anjali");
+}
+setTimeout(n,5000);

@@ -47,13 +47,19 @@ console.log(x(factorial));
 
 
 
-//Table for 5
-function table(num){
-    for(i=1; i<=10; i++){
-        console.log(num,'X',i,'=',num*i);
-    }
-}
-function y(table){
-    return table(7);
-}
-console.log(y(table));                  
+//Write table for any number
+// function table(num){
+//     for(i=1; i<=10; i++){
+//         console.log(num,'X',i,'=',num*i);
+//     }
+// }
+// function y(table){
+//     return table(11);
+// }
+// console.log(y(table));     
+
+
+
+
+
+//-----------------------------------------Set Time Out----------------------------------------------//

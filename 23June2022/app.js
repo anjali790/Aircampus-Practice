@@ -47,7 +47,7 @@ console.log(x(factorial));
 
 
 
-//Write table for any number
+//Print table for any number
 // function table(num){
 //     for(i=1; i<=10; i++){
 //         console.log(num,'X',i,'=',num*i);

@@ -66,4 +66,14 @@ console.log(x(factorial));
 function n(){
     console.log("Anjali");
 }
-setTimeout(n,5000);
+setTimeout(n,2000);
+
+
+
+
+
+
+function interval(){
+    console.log("Anjali");
+}
+setInterval(interval,5000);

@@ -1,4 +1,5 @@
-//HOF(High Order Function)
+//-------------------------------HOF(High Order Function)----------------------------------------------//
+
 function b(x,y){
     return x+y;
 }
@@ -27,6 +28,7 @@ console.log(z(evenNumber));
 
 
 
+
 //Find factorial of number
 function factorial(num){
     let facto=1;
@@ -39,3 +41,19 @@ function x(factorial){
     return factorial(6);
 }
 console.log(x(factorial));
+
+
+
+
+
+
+//Table for 5
+function table(num){
+    for(i=1; i<=10; i++){
+        console.log(num,'X',i,'=',num*i);
+    }
+}
+function y(table){
+    return table(7);
+}
+console.log(y(table));                  

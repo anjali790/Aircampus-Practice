@@ -12,7 +12,7 @@ console.log(a(b));
 
 
 
-//Print even numbers
+//Check whether given number is EVEN or ODD
 function evenNumber(num){
     if(num%2==0){
         return "EVEN";

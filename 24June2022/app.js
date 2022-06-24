@@ -57,46 +57,27 @@ console.log(p(7,1));
 
 
 
-//Print same number
-// function a(num){
-//     if(num>0)
-//         console.log(num);
-//         return a(num-1);
-//             
-// }
-// a(9);
+
+//Print number between given range
+function range(x,y){
+    console.log(x);
+    while(x<y){
+        return range(x+1,y)
+    }
+}
+range(30,50)
 
 
 
 
 
 
-
-
-
-
-// function z(num){
-//     if(num>0){
-//     console.log(num);
-//     return z(num-1);
-//     }
-// }
-// z(34);
-
-
-
-
-
-
-
-// //factorial
-// function x(num,fact){
-//     if(num>0){
-//         fact=fact*num;
-//     // console.log(fact);
-//     return x(num-1,fact);
-//     }else{
-//         return fact;
-//     }
-// }
-// console.log(x(7,1));
+//Print Fibonacci series
+function fibonacci(first,second,counter){
+    if(counter<=10){
+    console.log(first);
+    let c=first+second;
+    return fibonacci(second,c,counter+1);
+    }
+}
+fibonacci(1,1,1);

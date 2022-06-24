@@ -18,11 +18,25 @@ y(8);
 
 
 //Print a number infinite times
-function z(num){
+// function z(num){
+//     console.log(num);
+//     return z(num);
+// }
+// z(10);
+
+
+
+
+
+//Print number in decending order
+function dec(num){
+    if(num>0){
     console.log(num);
-    return z(num);
+    return dec(num-1);
+    
+    }
 }
-z(10);
+dec(16);
 
 
 

@@ -7,16 +7,16 @@ x();
 
 
 
+//Print a number one time
+function y(num){
+    console.log(num);
+    // return y(num)
+}
+y(8);
 
 
 
 
-
-// function y(num){
-//     console.log(num);
-//     return y(num)
-// }
-// y(8);
 
 
 

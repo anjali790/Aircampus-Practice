@@ -1,4 +1,4 @@
-//Recursion
+//----------------------------------------------------Recursion------------------------------------------------//
 // function x(){
 //     console.log("hello");
 //     return x();
@@ -33,10 +33,26 @@ function dec(num){
     if(num>0){
     console.log(num);
     return dec(num-1);
-    
     }
 }
 dec(16);
+
+
+
+
+
+
+//Print factorial of a number
+function p(num,facto){
+    if(num>0){
+        facto=num*facto;
+        return p(num-1,facto);
+    }
+    return facto;
+}
+console.log(p(7,1));
+
+
 
 
 
@@ -45,8 +61,8 @@ dec(16);
 // function a(num){
 //     if(num>0)
 //         console.log(num);
-//         return a(num-1
-//             );
+//         return a(num-1);
+//             
 // }
 // a(9);
 

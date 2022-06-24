@@ -1,9 +1,9 @@
 //Recursion
-function x(){
-    console.log("hello");
-    return x();
-}
-x();
+// function x(){
+//     console.log("hello");
+//     return x();
+// }
+// x();
 
 
 
@@ -17,7 +17,12 @@ y(8);
 
 
 
-
+//Print a number infinite times
+function z(num){
+    console.log(num);
+    return z(num);
+}
+z(10);
 
 
 

@@ -4,7 +4,7 @@ function range(num1,num2){
      console.log(num1);
      return range(num1+1,num2);
     }
- }
+}
  range(20,30);
  
  

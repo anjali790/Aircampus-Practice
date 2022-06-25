@@ -81,3 +81,15 @@ function fibonacci(first,second,counter){
     }
 }
 fibonacci(1,1,1);
+
+
+
+
+
+//Print odd number between given range
+function y(num1,num2){
+    if(num1<num2 && num1%2==1)
+    console.log(num1);
+    return y(num1+1,num2);
+  }
+  y(9,31)

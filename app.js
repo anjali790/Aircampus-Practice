@@ -1,10 +1,10 @@
-let nn=123456789;
+// let nn=123456789;
 // let n= nn.toString();
 // let a=(n.length/2)
 // console.log(a)
 
-var digit = Math.log10(nn)+1;
-console.log(digit);
+// var digit = Math.log10(nn)+1;
+// console.log(digit);
 // digit = parseInt(digit); 
 // console.log(digit); // length 
 // digit = parseInt(digit /2)

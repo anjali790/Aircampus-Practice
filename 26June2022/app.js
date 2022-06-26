@@ -1,4 +1,4 @@
-//Ques6:-Print all the number between given range
+//Print all the number between given range
 function range(num1,num2){
     console.log(num1);
     while(num1<num2){
@@ -12,7 +12,7 @@ range(1,5);
 
 
 
-//Ques7:-Print the product of all the numbers in the given range
+//Print the product of all the numbers in the given range
 function product(num1,num2){
     if(num1<=num2){
       return num1*product(num1+1,num2);
@@ -28,7 +28,7 @@ function product(num1,num2){
 
 
 
-//Ques9:-Print sum of all the numbers in the given range
+//Print sum of all the numbers in the given range
 function sumOfNumber(num1,num2,sum){
     if(num1<num2){
         sum=sum+num1;
@@ -46,7 +46,7 @@ console.log(sumOfNumber(1,10,0))
 
 
 
-//Ques10:-Write a recursive program to find the power of given number and exponent
+//Write a recursive program to find the power of given number and exponent
 function power(num,pow){
     if(pow>0){
        return num*power(num,pow-1);

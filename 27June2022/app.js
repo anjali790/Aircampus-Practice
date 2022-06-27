@@ -80,3 +80,19 @@ while(num4!=0){
     }
 }
 console.log(counter)
+
+
+
+
+
+
+//Find the sum of all digits of a given number
+let num5=1234,add=0,z;
+while(num5!=0){
+    z=num5%10;
+    num5=Math.floor(num5/10);
+    if(z%2==0){
+        add+=z;
+    }
+}
+console.log(add)

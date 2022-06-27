@@ -26,15 +26,15 @@ console.log(sum);
 
 
 //Print even digit of a given number
-// let num1=543768,remainder;
-// while(num1!=0){
-//     remainder=num1%10;
-//     console.log(remainder);
-//     num1=Math.floor(num1/10);
-// }
+let num1=543768,remainder;
+while(num1!=0){
+    remainder=num1%10;
+    num1=Math.floor(num1/10);
+    if(remainder%2==0){
+        return remainder;
+    }else{
+        console.log("odd");
+    }
+    
+}
 
-// if(remainder%2==0){
-//     return remainder;
-// }else{
-//     console.log("odd");
-// }

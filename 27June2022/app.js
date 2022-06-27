@@ -113,6 +113,9 @@ while(num6!=0){
 
 
 
+
+
+//Print factorial of a given number
 let facto=1;
 i=5;
 while(i>0){

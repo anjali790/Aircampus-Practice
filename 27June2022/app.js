@@ -3,7 +3,7 @@
 let n=134678,digit;
 while(n!=0){
     digit=n%10;
-    console.log(digit);
+    console.log("Digits of a given number is",digit);
     n=Math.floor(n/10);
 }
 
@@ -19,7 +19,7 @@ while(num!=0){
     sum+=rem;
     num=Math.floor(num/10);
 }
-console.log(sum);
+console.log("Sum of all digits of a given number is",sum);
 
 
 
@@ -27,12 +27,12 @@ console.log(sum);
 
 
 //Print even digit of a given number
-let num1=543768,remainder;
+let num1=543768,even;
 while(num1!=0){
-    remainder=num1%10;
+    even=num1%10;
     num1=Math.floor(num1/10);
-    if(remainder%2==0){
-        console.log(remainder);
+    if(even%2==0){
+        console.log("Even digits of a given number is",even);
     }
 }
 
@@ -47,7 +47,7 @@ while(num2!==0){
     odd=num2%10;
     num2=Math.floor(num2/10);
     if(odd%2!=0){
-        console.log(odd);
+        console.log("Odd digits of a given number is",odd);
     }
 }
 
@@ -56,21 +56,21 @@ while(num2!==0){
 
 
 
-//Count the number of digits
+//Count the number of digits of a given number
 let num3=273890,count=0,remain;
 while(num3!=0){
     remain=num3%10;
     count+=1;
     num3=Math.floor(num3/10);
 }
-console.log(count);
+console.log("Number of digits of a given number is",count);
 
 
 
 
 
 
-//Count the number of Even digits
+//Count the number of Even digits of a given number
 let num4=254367,counter=0, x;
 while(num4!=0){
     x=num4%10;
@@ -79,7 +79,7 @@ while(num4!=0){
         counter+=1;
     }
 }
-console.log(counter)
+console.log("Number of even digits of a given number is",counter)
 
 
 
@@ -95,7 +95,7 @@ while(num5!=0){
         add+=z;
     }
 }
-console.log(add);
+console.log("Sum of all digits of given number is",add);
 
 
 
@@ -106,7 +106,7 @@ console.log(add);
 let num6=1234, digits;
 while(num6!=0){
     digits=num6%10;
-    console.log(digits**3);
+    console.log("Cube of all digits is",digits**3);
     num6=Math.floor(num6/10);
 }
 
@@ -122,4 +122,4 @@ while(i>0){
     facto=facto*i;
     i--;
 }
-console.log(facto);
+console.log("Factorial of 5 is",facto);

@@ -109,3 +109,14 @@ while(num6!=0){
     console.log(digits**3);
     num6=Math.floor(num6/10);
 }
+
+
+
+
+let facto=1;
+i=5;
+while(i>0){
+    facto=facto*i;
+    i--;
+}
+console.log(facto);

@@ -70,4 +70,13 @@ console.log(count);
 
 
 
-//
+//Count the number of Even digits
+let num4=254367,counter=0, x;
+while(num4!=0){
+    x=num4%10;
+    num4=Math.floor(num4/10);
+    if(x%2==0){
+        counter+=1;
+    }
+}
+console.log(counter)

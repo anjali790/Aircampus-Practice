@@ -31,10 +31,7 @@ while(num1!=0){
     remainder=num1%10;
     num1=Math.floor(num1/10);
     if(remainder%2==0){
-        return remainder;
-    }else{
-        console.log("odd");
+        console.log(remainder);
     }
-    
 }
 

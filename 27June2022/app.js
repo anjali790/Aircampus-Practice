@@ -25,6 +25,7 @@ console.log(sum);
 
 
 
+
 //Print even digit of a given number
 let num1=543768,remainder;
 while(num1!=0){
@@ -50,3 +51,23 @@ while(num2!==0){
     }
 }
 
+
+
+
+
+
+//Count the number of digits
+let num3=273890,count=0,remain;
+while(num3!=0){
+    remain=num3%10;
+    count+=1;
+    num3=Math.floor(num3/10);
+}
+console.log(count);
+
+
+
+
+
+
+//

@@ -35,3 +35,18 @@ while(num1!=0){
     }
 }
 
+
+
+
+
+
+//Print odd digits of a given number
+let num2=6139047;
+while(num2!==0){
+    odd=num2%10;
+    num2=Math.floor(num2/10);
+    if(odd%2!=0){
+        console.log(odd);
+    }
+}
+

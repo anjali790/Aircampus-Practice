@@ -87,7 +87,7 @@ console.log(counter)
 
 
 //Print the sum of all digits of a given number
-let num5=1234,add=0,z;
+let num5=12342,add=0,z;
 while(num5!=0){
     z=num5%10;
     num5=Math.floor(num5/10);
@@ -103,9 +103,9 @@ console.log(add);
 
 
 //Print cube of all digits
-let num6=1234, cube=0, digits;
-while(n!=0){
+let num6=1234, digits;
+while(num6!=0){
     digits=num6%10;
-    console.log(digit**3);
+    console.log(digits**3);
     num6=Math.floor(num6/10);
 }

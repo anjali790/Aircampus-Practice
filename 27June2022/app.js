@@ -13,13 +13,13 @@ while(n!=0){
 
 
 //Print the sum of all the digits of a number
-// let num=24537, rem, sum=0;
-// while(num!=0){
-//     rem=num%10;
-//     sum+=rem;
-//     num=Math.floor(num/10);
-// }
-// console.log(sum);
+let num=24537, rem, sum=0;
+while(num!=0){
+    rem=num%10;
+    sum+=rem;
+    num=Math.floor(num/10);
+}
+console.log(sum);
 
 
 

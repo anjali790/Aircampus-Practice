@@ -50,3 +50,17 @@ for(let i=1; i<=number; i++){
   }
   console.log(stars)
 }
+
+
+
+
+
+
+let num1=5;
+for(let i=1; i<=num1; i++){
+  let num1= '';
+  for(let j=1; j<=i; j++){
+    num1 =num1 + i;
+  }
+  console.log(num1);
+}

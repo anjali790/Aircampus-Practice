@@ -34,3 +34,19 @@ for(let i=1; i<=n; i++){
   }
   console.log(stars)
 }
+
+
+
+
+
+
+
+let number=5;
+let count=1;
+for(let i=1; i<=number; i++){
+  let stars= ' ';
+  for(let j=1; j<=i; j++){
+    stars =stars + ` ${count++}`;
+  }
+  console.log(stars)
+}

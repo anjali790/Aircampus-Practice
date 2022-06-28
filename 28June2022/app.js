@@ -44,9 +44,9 @@ for(let i=1; i<=n; i++){
 let number=5;
 let count=1;
 for(let i=1; i<=number; i++){
-  let stars= ' ';
+  let stars= '';
   for(let j=1; j<=i; j++){
-    stars =stars + ` ${count++}`;
+    stars =stars + `${count++}`;
   }
   console.log(stars)
 }

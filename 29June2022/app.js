@@ -12,3 +12,22 @@ for(i=1; i<=num; i++){
     }
     console.log(star);
 }
+
+
+
+
+
+
+
+let n=4;
+for(i=1; i<=n; i++){
+  star='';
+  for(j=1; j<=n; j++){
+    if(i==1 || i==4 || j==1 || j==4){
+      star+='* ';
+    }else{
+      star+='  ';
+    }
+  }
+  console.log(star)
+}

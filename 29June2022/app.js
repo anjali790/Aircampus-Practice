@@ -39,16 +39,19 @@ for(let i=1; i<=n; i++){
 
 
 
+
 for(let i=1; i<=6; i++){
-    star='';
-    for(j=1; j<=i; j++){
-        if(i==6){
-            star+='*';
-        }else if(j==1 || ((i+j)%2==0)){
-            star+="*";
-        }else{
-            star+='';
-        }
-    }
+  star='';
+  for(j=1; j<=i; j++){
+    if(i==6){
+      star+=`${"*"} `;
+    }else{
+      if(j==1 || j==i){
+        star+=`${"*"} `;
+      }else{
+        star+="  ";
+      }
+      }
+    } 
     console.log(star)
 }

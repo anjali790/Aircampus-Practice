@@ -36,9 +36,9 @@ let n=5;
 for(let i=1; i<=n; i++){
   let stars= '';
   for(let j=1; j<=i; j++){
-    stars =stars+j
+    stars =stars+j;
   }
-  console.log(stars)
+  console.log(stars);
 }
 
 
@@ -52,3 +52,11 @@ for(let i=1; i<=n; i++){
 // 333
 // 4444
 // 55555
+let number=5;
+for(let i=1; i<=number; i++){
+  let stars= '';
+  for(let j=1; j<=i; j++){
+    stars =stars+i;
+  }
+  console.log(stars);
+}

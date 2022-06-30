@@ -1,4 +1,11 @@
-let num=6;
+//Print given pattern:-
+// 1
+// 01
+// 101
+// 0101
+// 10101
+// 010101
+ let num=6;
 let count=0;
 for(i=1; i<=num; i++){
     star='';
@@ -18,7 +25,11 @@ for(i=1; i<=num; i++){
 
 
 
-
+//Print hollow square:-
+// * * * * 
+// *     * 
+// *     * 
+// * * * *
 let n=4;
 for(let i=1; i<=n; i++){
   star='';
@@ -39,7 +50,13 @@ for(let i=1; i<=n; i++){
 
 
 
-
+//Print hollow triangle:-
+// * 
+// * * 
+// *   * 
+// *     * 
+// *       * 
+// * * * * * * 
 for(let i=1; i<=6; i++){
   star='';
   for(j=1; j<=i; j++){
@@ -61,7 +78,12 @@ for(let i=1; i<=6; i++){
 
 
 
-
+//Print reverse left side triangle:-
+// *****
+// ****
+// ***
+// **
+// *
 for(let i=5; i>=1; i--){
     star='';
     for(let j=1; j<=i; j++){

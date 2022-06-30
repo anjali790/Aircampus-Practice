@@ -1,4 +1,4 @@
-//Print:-
+//Print the pattern given below, using loops.
 // 1
 // 01
 // 101
@@ -19,3 +19,36 @@ for(i=1; i<=num; i++){
   }
   console.log(star)
 }
+
+
+
+
+
+
+
+//Print the pattern given below, using loops.
+// 1
+// 12
+// 123
+// 1234
+// 12345
+let n=5;
+for(let i=1; i<=n; i++){
+  let stars= '';
+  for(let j=1; j<=i; j++){
+    stars =stars+j
+  }
+  console.log(stars)
+}
+
+
+
+
+
+
+//Print the pattern given below, using loops.
+// 1
+// 22
+// 333
+// 4444
+// 55555

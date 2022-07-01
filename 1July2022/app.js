@@ -1,6 +1,6 @@
-let num=5;
+let num1=5;
 let count=1;
-for(let i=1; i<=5; i++){
+for(let i=1; i<=num1; i++){
     let space=" ";
     let star='';
     for(let j=1; j<=i; j++){
@@ -42,11 +42,11 @@ for(i=1; i<=num; i++){
 
 
 
-// console.log("first");
-// setTimeout(function(){
-//     console.log("hello");
-// },5000)
-// setTimeout(function(){
-//     console.log("calling");
-// },2000)
-// console.log("second");
+console.log("first");
+setTimeout(function(){
+    console.log("hello");
+},5000)
+setTimeout(function(){
+    console.log("calling");
+},2000)
+console.log("second");

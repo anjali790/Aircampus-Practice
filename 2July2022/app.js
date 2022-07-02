@@ -46,3 +46,17 @@ for(let i=num2; i>=1; i--){
     }
     console.log(star)
 }
+
+
+
+
+
+
+let num3=5;
+for(i=1; i<=num3; i++){
+    star="";
+    for(j=1; j<=i; j++){
+        star+="*";
+    }
+    console.log(star)
+}

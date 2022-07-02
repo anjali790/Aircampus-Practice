@@ -16,6 +16,9 @@ for(i=1; i<=num; i++){
 
 
 
+
+
+
 let num1=5;
 for(i=num1; i>=1; i--){
     star="";
@@ -24,6 +27,22 @@ for(i=num1; i>=1; i--){
     }
     for(let k=1; k<=i; k++){
         star+="*"
+    }
+    console.log(star)
+}
+
+
+
+
+
+
+
+
+let num2=5;
+for(let i=num2; i>=1; i--){
+    star="";
+    for(let j=1; j<=i; j++){
+        star+="*";
     }
     console.log(star)
 }

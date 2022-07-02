@@ -15,10 +15,6 @@ for(i=1; i<=num; i++){
 
 
 
-
-
-
-
 let num1=5;
 for(i=num1; i>=1; i--){
     star="";
@@ -30,7 +26,6 @@ for(i=num1; i>=1; i--){
     }
     console.log(star)
 }
-
 
 
 

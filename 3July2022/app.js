@@ -1,3 +1,4 @@
+//------------------------------------------------------------Question1-------------------------------------------------------------
 //Take a number and return all the even digits of the number.Return a list of even digits of the number if multiple digits are combine it in string.Return -1 in case there are no even digits
 function even(n){
     let str="",digit;
@@ -21,7 +22,7 @@ console.log(even(12067));
 
 
 
-
+//------------------------------------------------------------Question2-------------------------------------------------------------
 //Take an integer and print 'aircampus' if the input integer is an Aircampus number, otherwise print 'no'.
 //A number is called Aircampus number if the sum of its own digits each raised to the power of the number of digits is equal to the original number itself.
 function sum(n){
@@ -45,6 +46,8 @@ console.log(sum(123));
 
 
 
+
+//------------------------------------------------------------Question3-------------------------------------------------------------
 //This will be pattern: 
 //5
 //4 5
@@ -62,3 +65,30 @@ function sum(n){
     return sum;
 }
 console.log(sum(5))
+
+
+
+
+
+
+
+//------------------------------------------------------------Question4-------------------------------------------------------------
+//Take an integer as input and print 'YES' if the number is a special number. Otherwise, print 'NO'.
+//A special number is a number which is equal to the sum of the factorials of its digits. Example: For number = 145, the output should be 1! + 4! + 5! = 145 Hence 145 is a special number.
+function specialNumber(n){
+    let digit,sum=0,temp=n;
+    if(n==0){
+        return "NO"
+    }
+    while(n!=0){
+        facto=1
+        digit=n%10;
+        n=Math.floor(n/10);
+        for(let i=digit; i>0; i--){
+            facto*=i;
+        }
+        sum+=facto;
+    }
+    return sum==temp ? "YES" : "NO";
+}
+console.log(specialNumber(145))

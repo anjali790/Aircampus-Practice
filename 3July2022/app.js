@@ -92,3 +92,33 @@ function specialNumber(n){
     return sum==temp ? "YES" : "NO";
 }
 console.log(specialNumber(145))
+
+
+
+
+
+
+
+
+//------------------------------------------------------------Question5-------------------------------------------------------------
+//1
+//01
+//010
+//1010
+//01010
+    let count=0,n=5;
+    for(i=1; i<=n; i++){
+        let num=""
+        for(j=1; j<=i; j++){
+            if((i+j)%2!=0){
+                count=0;
+            }else{
+                count=1;
+            }
+            num+=count;
+        }
+        console.log(num);
+    }
+   
+   
+

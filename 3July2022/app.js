@@ -39,3 +39,26 @@ function sum(n){
     return sum==temp ? "aircampus" : "no";
 }
 console.log(sum(123));
+
+
+
+
+
+
+//This will be pattern: 
+//5
+//4 5
+//3 4 5
+//2 3 4 5
+//1 2 3 4 5
+//sum of every element in this is 55
+function sum(n){
+    let sum=0;
+    for(let i=5; i>0; i--){
+        for(j=i; j<=n; j++){
+            sum+=j;
+        }
+    }
+    return sum;
+}
+console.log(sum(5))

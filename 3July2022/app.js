@@ -1,3 +1,4 @@
+//Take a number and return all the even digits of the number.Return a list of even digits of the number if multiple digits are combine it in string.Return -1 in case there are no even digits
 function even(n){
     let str="",digit;
     if(n==0){

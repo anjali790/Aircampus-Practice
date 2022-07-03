@@ -26,7 +26,6 @@ console.log(even(12067));
 function sum(n){
     let temp=n,digit,count,sum=0;
     while(n!=0){
-        digit=n%10;
         n=Math.floor(n/10);
         count++;
     }

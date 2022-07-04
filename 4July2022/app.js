@@ -72,16 +72,23 @@ for(let i=1; i<=num1; i++){
 
 
 
-Print the pattern given below, using loops.
-
-Input:
-No input is required.
-
-Output:
-1
-23
-123
-1231
-23123
+//Print the pattern given below, using loops.
+//1
+//23
+//123
+//1231
+//23123
+let num2=5,count=1;
+for(let i=1; i<=num2; i++){
+  star="";
+  for(j=1; j<=i; j++){
+    if(count>3){
+      count=1;
+    }
+    star+=count;
+    count+=1;
+  }
+  console.log(star)
+}
 
 

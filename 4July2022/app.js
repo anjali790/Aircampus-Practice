@@ -43,3 +43,28 @@ for(let i=1; i<=n; i++){
 
 
 
+
+
+
+
+
+//Print the pattern given below, using loops.
+//    *
+//   ***
+//  *****
+// *******
+//*********
+let num1=5;
+for(let i=1; i<=num1; i++){
+    star="";
+    for(let j=1; j<=num1-i; j++){
+        star+=" ";
+    }
+    for(let k=1; k<=2*i-1; k++){
+        star+="*";
+    }
+    console.log(star);
+}
+
+
+

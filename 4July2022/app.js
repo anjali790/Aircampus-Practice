@@ -68,3 +68,20 @@ for(let i=1; i<=num1; i++){
 
 
 
+
+
+
+
+Print the pattern given below, using loops.
+
+Input:
+No input is required.
+
+Output:
+1
+23
+123
+1231
+23123
+
+

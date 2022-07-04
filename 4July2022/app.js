@@ -16,3 +16,30 @@ for(let i=1; i<=num; i++){
     console.log(star);
 }
 
+
+
+
+
+
+
+
+//Print the pattern given below, using loops.
+//    2
+//   24
+//  246
+// 2468
+//246810 
+let n=5;
+for(let i=1; i<=n; i++){
+    star="";
+    for(let j=1; j<=n-i; j++){
+        star+=" ";
+    }
+    for(let k=1; k<=i; k++){
+        star+=k*2;
+    }
+    console.log(star)
+}
+
+
+

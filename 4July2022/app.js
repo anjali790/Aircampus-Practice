@@ -93,5 +93,3 @@ for(let i=1; i<=num2; i++){
   }
   console.log(star)
 }
-
-

@@ -22,7 +22,7 @@ console.log(branches);//[ 'EEE', 'CS', 'IT', 'ME', 'CS', 'CE', <4 empty items>, 
 
 //-------------------------------------------------object-----------------------------------------------
 let college={
-    collegeName: 'KEIT',
+    collegeName: 'KIET',
     name: 'Anjali',
     branch: 'EEE',
     otherBranch:{

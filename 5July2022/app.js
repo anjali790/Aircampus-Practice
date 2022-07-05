@@ -16,4 +16,4 @@ let college={
         branch: 'CS',
     }
 }
-console.log(college.name)
+console.log(college);

@@ -19,4 +19,4 @@ let college={
 console.log(college);
 console.log(college.collegeName);
 console.log(college.otherBranch);
-// console.log(college.otherBranch.name);
+console.log(college.otherBranch.name);

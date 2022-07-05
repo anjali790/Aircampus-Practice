@@ -11,9 +11,9 @@ let college={
     collegeName: 'KEIT',
     name: 'Anjali',
     branch: 'EEE',
-    otherBranch: {
+    otherBranch:{
         name: 'Shubro',
-        branch: 'CS'
+        branch: 'CS',
     }
-
 }
+console.log(college.collegeName)

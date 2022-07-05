@@ -21,3 +21,4 @@ console.log(college.collegeName);
 console.log(college.otherBranch);
 console.log(college.otherBranch.name);
 console.log(typeof college);
+console.log(college['name']);

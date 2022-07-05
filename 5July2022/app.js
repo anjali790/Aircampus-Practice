@@ -1,12 +1,25 @@
 //-------------------------------------------Array-------------------------------------------------------
 let names=['anjali', 'priya', 'monika', 'nidhi', true]
-console.log(names[0]);
-console.log(names);
-console.log(typeof names);
+console.log(names[0]);//anjali
+console.log(names);//all names
+console.log(typeof names);//object
 
 
 
-//Using object
+
+
+
+let branches=['EEE', 'CS', 'IT', 'ME', 'CS', 'CE']
+console.log(branches[0]);//EEE
+console.log(branches[3]);//ME
+console.log(branches[6]);//undefined
+
+
+
+
+
+
+//-------------------------------------------------object-----------------------------------------------
 let college={
     collegeName: 'KEIT',
     name: 'Anjali',

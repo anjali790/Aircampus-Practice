@@ -10,9 +10,10 @@ console.log(typeof names);//object
 
 
 let branches=['EEE', 'CS', 'IT', 'ME', 'CS', 'CE']
-console.log(branches[0]);//EEE
-console.log(branches[3]);//ME
+branches[10]='CHEMICAL';
+console.log(branches[0], branches[3]);//EEE ME
 console.log(branches[6]);//undefined
+console.log(branches);//[ 'EEE', 'CS', 'IT', 'ME', 'CS', 'CE', <4 empty items>, 'CHEMICAL' ]
 
 
 

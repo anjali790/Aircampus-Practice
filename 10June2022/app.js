@@ -1,6 +1,4 @@
-/////////////////////////////////////////////////////////////////////////////////////
 // Practice problems
-
 // 1. Write a  program to accept two integers and check whether they are equal or not.
 // Test Data : 15 15
 // Expected Output :

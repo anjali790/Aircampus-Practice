@@ -53,7 +53,7 @@ personNames = []
 console.log(personNames);// through an error
 
 
-let customerNames = ['priya', 'sakshi', 'nidhi', 'sushmita']
+let customerNames = ['priya', 'sakshi', 'nidhi', 'sushmita'];
 customerNames = []
 console.log(customerNames);//using let it will work
 
@@ -62,9 +62,7 @@ console.log(customerNames);//using let it will work
 
 
 
-
-
-
-
-
-
+//SPLICE:-
+let schoolNames = ['KV', 'Airforce School', 'Army Public School'];
+schoolNames.splice(2,1, 'Delhi Public School');
+console.log(schoolNames);

@@ -55,3 +55,21 @@ for(i=1; i<=num3; i++){
     }
     console.log(star)
 }
+
+
+
+
+
+function sum(n){
+    n=parseFloat(n)
+    let sum=0;
+    for(i=1; i<=n; i++){
+        let k=0;
+        for(let j=0; j<=i; j++){
+            k=k+j;
+        }sum=sum+(i/k);
+    }
+    return (sum).toFixed(3);
+}
+console.log(sum(3))
+

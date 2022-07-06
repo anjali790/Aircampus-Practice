@@ -33,4 +33,13 @@ console.log(states);//remove 'Punjab'
 
 
 
+//UNSHIFT- remove element form first
+let numbers = [10, 20, 30, 40,50]
+numbers.unshift();
+console.log(numbers);
+
+
+
+
+
 

@@ -66,7 +66,3 @@ console.log(customerNames);//using let it will work
 let schoolNames = ['KV', 'Airforce School', 'Army Public School'];
 schoolNames.splice(0,1, 'Happy Valley Shillong');//add 'Delhi Public School' at 0 index and remove element of index 1
 console.log(schoolNames);
-
-
-
-

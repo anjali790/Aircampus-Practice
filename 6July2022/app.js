@@ -15,7 +15,7 @@ console.log(names);
 
 
 
-//SHIFT- add element in the first
+//UNSHIFT- add element in the first
 let branches = ['EEE', 'CS', 'IT', 'ME']
 branches.unshift('EC');
 console.log(branches);
@@ -33,10 +33,10 @@ console.log(states);//remove 'Punjab'
 
 
 
-//UNSHIFT- remove element form first
-let numbers = [10, 20, 30, 40,50]
-numbers.unshift();
-console.log(numbers);
+//SHIFT- remove element form first
+let shapes = ['circle', 'triangle', 'rectangle', 'square']
+shapes.shift();
+console.log(shapes);
 
 
 

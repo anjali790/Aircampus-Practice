@@ -43,3 +43,28 @@ console.log(shapes);
 
 
 
+//To DELETE a element- 1.length=0
+// const personNames = ['shubham', 'ankit', 'rahul', 'aarav']
+// personNames.length=0;
+// console.log(personNames);
+
+//2. arrayNames=[] BUT it through an error because const can not reassign
+personNames = []
+console.log(personNames);// through an error
+
+
+let customerNames = ['priya', 'sakshi', 'nidhi', 'sushmita']
+customerNames = []
+console.log(customerNames);//using let it will work
+
+
+
+
+
+
+
+
+
+
+
+

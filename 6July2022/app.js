@@ -24,4 +24,13 @@ console.log(branches);
 
 
 
+//POP- remove element from last
+let states = ['Delhi', 'UP', 'Kerala', 'Punjab']
+states.pop();
+console.log(states);//remove 'Punjab'
+
+
+
+
+
 

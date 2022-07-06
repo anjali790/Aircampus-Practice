@@ -6,10 +6,10 @@ console.log(nums[0],nums[nums.length-1]);
 
 
 
-// //PUSH- add element in the last
-// let names = ['david', 'sachin', 'rahul', 'virat']
-// names.push('ishan');
-// console.log(names);
+//PUSH- add element in the last
+let names = ['david', 'sachin', 'rahul', 'virat']
+names.push('ishan');
+console.log(names);
 
 
 

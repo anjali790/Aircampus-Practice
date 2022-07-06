@@ -44,13 +44,13 @@ console.log(shapes);
 
 
 //To DELETE a element- 1.length=0
-// const personNames = ['shubham', 'ankit', 'rahul', 'aarav']
-// personNames.length=0;
-// console.log(personNames);
+const personNames = ['shubham', 'ankit', 'rahul', 'aarav']
+personNames.length=0;
+console.log(personNames);
 
 //2. arrayNames=[] BUT it through an error because const can not reassign
-personNames = []
-console.log(personNames);// through an error
+// personNames = [];
+// console.log(personNames);// through an error
 
 
 let customerNames = ['priya', 'sakshi', 'nidhi', 'sushmita'];
@@ -64,5 +64,9 @@ console.log(customerNames);//using let it will work
 
 //SPLICE:-
 let schoolNames = ['KV', 'Airforce School', 'Army Public School'];
-schoolNames.splice(2,1, 'Delhi Public School');
+schoolNames.splice(0,1, 'Happy Valley Shillong');//add 'Delhi Public School' at 0 index and remove element of index 1
 console.log(schoolNames);
+
+
+
+

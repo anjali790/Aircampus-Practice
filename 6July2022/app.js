@@ -15,10 +15,10 @@ console.log(names);
 
 
 
-// //SHIFT- add element in the first
-// let branches = ['EEE', 'CS', 'IT', 'ME']
-// branches.unshift('EC');
-// console.log(branches);
+//SHIFT- add element in the first
+let branches = ['EEE', 'CS', 'IT', 'ME']
+branches.unshift('EC');
+console.log(branches);
 
 
 

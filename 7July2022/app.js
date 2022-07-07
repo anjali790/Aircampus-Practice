@@ -23,3 +23,12 @@ let numbers = [5,6,9,3,8];
 console.log(numbers.includes(5,0));//true(5 is value and it is at 0 index so output is true)
 console.log(numbers.includes(5,3));//false
 
+
+
+//------------------------------------------------------------------------------------------------
+//Position of element
+let personNames = ['Divya', 'Ritu', 'Zeenat'];
+console.log([personNames.indexOf('Ritu')]);//index of Ritu is 1
+
+
+

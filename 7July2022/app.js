@@ -31,4 +31,10 @@ let personNames = ['Divya', 'Ritu', 'Zeenat'];
 console.log([personNames.indexOf('Ritu')]);//index of Ritu is 1
 
 
+//if element is not present in an array then it does not return any index and it return "-1" only 
+//consider above example
+console.log(personNames.indexOf('Anjali'));//output:- "-1"(because Anjali is not in an array)
+
+
+
 

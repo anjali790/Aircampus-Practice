@@ -15,3 +15,4 @@ console.log(names.slice(-1,-3));//output:-empty array
 //Includes:-used to check whether the element is present or not in an array
 let nums = [1,2,3,4,5];
 console.log(nums.includes(1));//output:-true
+console.log(nums.includes(8));//output:-false

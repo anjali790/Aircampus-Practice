@@ -6,3 +6,4 @@ console.log(names.slice(-3,-1));//output:-Mandavi,Kritika
 console.log(names.slice(-4));//output:-all names
 console.log(names.slice(0,-2));//output:-Priyanka,Mandavi
 console.log(names.slice(2,5));//output:-starting from index 2 to last value //i.e:- Kritika,Shalini
+console.log(names.slice(-1,-3));//output:-empty array

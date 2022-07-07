@@ -11,8 +11,15 @@ console.log(names.slice(-1,-3));//output:-empty array
 
 
 
-
+//-----------------------------------------------------------------------------------------------------------
 //Includes:-used to check whether the element is present or not in an array
 let nums = [1,2,3,4,5];
 console.log(nums.includes(1));//output:-true
 console.log(nums.includes(8));//output:-false
+
+
+//use index and value to search whether the element is present or not in an array
+let numbers = [5,6,9,3,8];
+console.log(numbers.includes(5,0));//true(5 is value and it is at 0 index so output is true)
+console.log(numbers.includes(5,3));//false
+

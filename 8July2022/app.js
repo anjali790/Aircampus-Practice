@@ -52,7 +52,7 @@ console.log(nums2[4]);// 5 is present at 4th index
 let nums3 = [1,2,5,8,1,7,4,2];
 for(let i=0; i<nums3.length; i++){
     if(nums3.indexOf(nums3[i]) == nums3.lastIndexOf(nums3[i]))
-    return (nums3[i]);
+    return nums3[i];
 }
 
 
@@ -66,5 +66,17 @@ for(let i=0; i<nums3.length; i++){
 let nums4 = [12,56,89,30,23,56];
 for(let i=0; i<nums4.length; i++){
     if(nums4.indexOf(nums4[i]) !== nums4.lastIndexOf(nums4[i]));
-    return (nums4[i]);
+    return nums4[i];
 }
+
+
+
+
+
+
+
+//Convert array in string:-
+let names = ['shivani', 'ravi', 'raj', 'tulsa'];
+console.log(names.toString());
+console.log(names.join("-"));
+

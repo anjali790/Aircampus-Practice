@@ -21,3 +21,14 @@ for(let i=0; i<numbers.length; i++){
     }
 }
 console.log(min);
+
+
+
+
+
+
+//Index:-
+let num = [1,3,1,6,1,5,8];
+console.log(num.indexOf(1));
+//Last occurance:-
+console.log(num.lastIndexOf(1));

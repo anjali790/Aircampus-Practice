@@ -28,7 +28,7 @@ console.log(numbers.includes(5,3));//false
 //------------------------------------------------------------------------------------------------
 //Position of element
 let personNames = ['Divya', 'Ritu', 'Zeenat'];
-console.log([personNames.indexOf('Ritu')]);//index of Ritu is 1
+console.log(personNames.indexOf('Ritu'));//index of Ritu is 1
 
 
 //if element is not present in an array then it return "-1" only 

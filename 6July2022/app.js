@@ -49,6 +49,7 @@ personNames.length=0;
 console.log(personNames);
 
 //2. arrayNames=[] BUT it through an error because const can not reassign
+//const personNames = ['shubham', 'ankit', 'rahul', 'aarav']
 // personNames = [];
 // console.log(personNames);// through an error
 
@@ -63,6 +64,7 @@ console.log(customerNames);//using let it will work
 
 
 //SPLICE:-
+//arrayName.splice(index on which want to add or remove element, no. of values deleted, "values which is to be added")
 let schoolNames = ['KV', 'Airforce School', 'Army Public School'];
-schoolNames.splice(0,1, 'Happy Valley Shillong');//add 'Delhi Public School' at 0 index and remove element of index 1
+schoolNames.splice(0,1, 'Happy Valley Shillong');//add 'Delhi Public School' at 0 index and remove element of position 1(KV)
 console.log(schoolNames);

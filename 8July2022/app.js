@@ -48,10 +48,23 @@ console.log(nums2[4]);// 5 is present at 4th index
 
 
 //----------------------------------------------------------------------------------------------------
-//Find first non repeating:-
+//Find first non repeating number:-
 let nums3 = [1,2,5,8,1,7,4,2];
-for(i=0; i<nums3.length; i++){
+for(let i=0; i<nums3.length; i++){
     if(nums3.indexOf(nums3[i]) == nums3.lastIndexOf(nums3[i]))
-    console.log(nums3[i]);
-    break;
+    return (nums3[i]);
+}
+
+
+
+
+
+
+
+
+//Find first repeating number:-
+let nums4 = [12,56,89,30,23,56];
+for(let i=0; i<nums4.length; i++){
+    if(nums4.indexOf(nums4[i]) !== nums4.lastIndexOf(nums4[i]));
+    return (nums4[i]);
 }

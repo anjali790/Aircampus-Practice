@@ -11,3 +11,13 @@ console.log(max);
 
 
 
+
+//Minimum number in an array:-
+let numbers = [1,-4,87,-45,0,,-100];
+let min = 0;
+for(let i=0; i<numbers.length; i++){
+    if(min > numbers[i]){
+        min = numbers[i];
+    }
+}
+console.log(min);

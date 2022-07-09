@@ -35,8 +35,25 @@ console.log(ageArray);
 
 
 //Map:-is used to perform any opertaion and comparison.
+//Find the square
 let numbers=[1,2,3,4,5];
 let squareArray=numbers.map(function (square){
     return square**2;
 })
 console.log(squareArray);
+
+
+
+
+
+
+//Find the factorial
+let num1=[3,4,5,6,7];
+let factorialArray=num1.map(function (num){
+    let facto=1;
+    for(i=num; i>0; i--){
+        facto*=i;
+    }
+    return facto;
+})
+console.log(factorialArray);

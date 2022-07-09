@@ -34,4 +34,9 @@ console.log(ageArray);
 
 
 
-//Map:-
+//Map:-is used to perform any opertaion and comparison.
+let numbers=[1,2,3,4,5];
+let newarr=numbers.map(function (square){
+    return square**2;
+})
+console.log(newarr);

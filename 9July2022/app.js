@@ -66,6 +66,17 @@ console.log(factorialArray);
 
 //Truthy values:-
 //remove all the falsy values
-let arr=[1,'',false,true,'anjali',null,undefined];
+let arr=[1,[],{},'',false,true,'anjali',null,undefined];
 let truthyValues = arr.filter(Boolean);
 console.log(truthyValues);
+
+
+
+
+//Falsy values:-
+//remove all the truthy values
+let falsyArray=[1,[],{},'',false,true,'anjali',null,undefined];
+let falsyValues = falsyArray.filter((nums) => !nums);
+console.log(falsyValues);
+
+

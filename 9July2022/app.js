@@ -57,3 +57,15 @@ let factorialArray=num1.map(function (num){
     return facto;
 })
 console.log(factorialArray);
+
+
+
+
+
+
+
+//Truthy values:-
+//remove all the falsy values
+let arr=[1,'',false,true,'anjali',null,undefined];
+let truthyValues = arr.filter(Boolean);
+console.log(truthyValues);
